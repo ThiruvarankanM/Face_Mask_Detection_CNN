@@ -42,4 +42,3 @@ For model training and exploration, use the Colab notebook (link also at the top
 The quantized TensorFlow Lite model (`face_mask_model_quantized.tflite`) is used for fast and efficient inference in the web app.
 
 ---
-For any questions or issues, please open an issue in this repository.
