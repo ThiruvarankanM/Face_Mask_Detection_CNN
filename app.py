@@ -35,7 +35,7 @@ if uploaded_file is not None:
     pred_label = int(np.argmax(prediction))
     confidence = float(np.max(prediction))
 
-    if pred_label == 1:
+    if pred_label == 0:
         st.success(f"Mask detected (Confidence: {confidence:.2%})")
     else:
         st.error(f"No mask detected (Confidence: {confidence:.2%})")
