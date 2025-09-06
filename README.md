@@ -5,7 +5,11 @@
 **Demo Video:** [Watch on YouTube](https://youtu.be/TIjEDFxF-e4)
 
 **Google Colab:** [Open in Colab](https://colab.research.google.com/drive/136sglL2jlGkPiog7Bha84dDogrdxKNTy?usp=sharing)
+## Dataset
+The model is trained using the **Face Mask Dataset** from Kaggle:  
+[Face Mask Dataset (Kaggle)](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)
 
+It contains labeled images of people **with masks** and **without masks**, which are used for training and evaluation.
 ## Overview
 This project provides an end-to-end solution for detecting face masks in images using a Convolutional Neural Network (CNN). The trained model is quantized and deployed using TensorFlow Lite, with an interactive web application built using Streamlit.
 
